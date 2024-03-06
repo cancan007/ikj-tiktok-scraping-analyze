@@ -6,6 +6,10 @@ from selenium.webdriver.chrome import service as fs
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 import numpy as np
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
 
 profile_path = '/Users/moueshouta/Library/Application Support/Google/Chrome/'
 account_name = 'Default' #User Data/(xxx)に表示されている名前、メインアカウントは基本「Default」に保存されているはずです
@@ -18,8 +22,8 @@ options.add_argument('--disable-dev-shm-usage')
 options.add_argument("--no-sandbox")
 
 
-USER='ikj.outdoor.feat.ah@gmail.com'
-PASS='kuruwa21'
+USER=os.environ['USER_EMAIL']
+PASS=os.environ['PASS']
 chrome_service = fs.Service(executable_path='../chromedriver')
 driver = webdriver.Chrome(service=chrome_service
                           ,options=options # Googleログイン状態にしたければコメント解除

@@ -1,14 +1,27 @@
 # TikTok ハッシュタグ データ取得手順
 
-1. Chrome のタブを全て閉じ、その状態で login.py を"python3 login.py"で行い、閉じるまで待つ
+1. Tiktok 分析ツール Exolyt を新規登録(登録してない人のみ)
 
-2. ログイン状態になったので、もう一度 Chrome が全て閉じていることを確認し、live-sc.py を"python3 live-sc.py"で実行
+- URL: https://exolyt.com/ja
 
-3. 上の CMD を打ったあと、CMD を打ったターミナルに*「流行を調べたいハッシュタグを複数記入してください(間は半角空白で区切る)」*という文字が出てくるので、調査したいハッシュタグを間を半角空白にしながら複数記入していく
+2. このフォルダ直下に.env ファイルを作成しそこに Exolyt でログインするのに必要なメールアドレスとパスワードを記入
+
+- USER*EMAIL=*ログインに必要なメルア\_
+- PASS=_ログインに必要なパスワード_
+
+3. live-sc.py で import しているライブラリを全てインストール
+
+- 参考：https://gammasoft.jp/python/python-library-install/
+
+4. Chrome のタブを全て閉じ、その状態で login.py を"python3 login.py"で行い、閉じるまで待つ
+
+5. ログイン状態になったので、もう一度 Chrome が全て閉じていることを確認し、live-sc.py を"python3 live-sc.py"で実行
+
+6. 上の CMD を打ったあと、CMD を打ったターミナルに*「流行を調べたいハッシュタグを複数記入してください(間は半角空白で区切る)」*という文字が出てくるので、調査したいハッシュタグを間を半角空白にしながら複数記入していく
 
 - 記入例：ボクシング 剣道 日本 免許
 
-4. data フォルダに csv データが作成される
+7. data フォルダに csv データが作成される
 
 参考:https://prtn-life.com/blog/selenium-chrome-login
 
