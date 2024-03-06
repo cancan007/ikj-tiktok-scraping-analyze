@@ -21,11 +21,11 @@
 - この URL から自分の PC にあった ChromeDriver を入れる
 - https://chromedriver.chromium.org/downloads
 
-3. 各機能ごとの使い方は各フォルダの info.md を参照
+3. 各機能ごとの使い方は各フォルダの info.md を参照(_それぞれの機能は各フォルダ直下で行う_)
 
 - Tiktok ライブデータの自動取得
 - フォルダ：tiktok-scraping
 - Tiktok ライブデータの相関図作成
 - フォルダ：tiktok-analyze
-- 調査したいハッシュタグごとの流行度データ取得
+- 調査したいハッシュタグごとの流行度データ取得(事前に tiktok-analyze でデータ取得する必要あり)
 - フォルダ：tiktok-exolyt-sc
