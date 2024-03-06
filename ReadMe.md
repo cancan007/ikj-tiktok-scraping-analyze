@@ -21,7 +21,7 @@
 - この URL から自分の PC にあった ChromeDriver を入れる
 - https://chromedriver.chromium.org/downloads
 
-3. 各機能ごとの使い方は各フォルダの _ReadMe.md_ を参照(_それぞれの機能は各フォルダ直下で行う_)
+3. 各機能ごとの使い方は各フォルダの _info.md_ を参照(_それぞれの機能は各フォルダ直下で行う_)
 
 - Tiktok ライブデータの自動取得
 - フォルダ：tiktok-scraping
