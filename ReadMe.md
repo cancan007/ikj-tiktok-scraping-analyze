@@ -5,7 +5,7 @@
 - IKJ アカウントの Tiktok ライブデータの自動取得(tiktok-scraping フォルダ)と相関図の作成(tiktok-analyze フォルダ)
 - Tiktok 分析サイト exolyt から　ハッシュタグごとの流行度データ取得(tiktok-exolyt-sc フォルダ)
 
-各機能の使い方は各 info.md ファイルを拝見
+各機能の使い方は各フォルダ直下の _ReadMe.md_ ファイルを拝見
 
 ### はじめ方(環境構築)
 
@@ -21,7 +21,7 @@
 - この URL から自分の PC にあった ChromeDriver を入れる
 - https://chromedriver.chromium.org/downloads
 
-3. 各機能ごとの使い方は各フォルダの info.md を参照(_それぞれの機能は各フォルダ直下で行う_)
+3. 各機能ごとの使い方は各フォルダの _ReadMe.md_ を参照(_それぞれの機能は各フォルダ直下で行う_)
 
 - Tiktok ライブデータの自動取得
 - フォルダ：tiktok-scraping
