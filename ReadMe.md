@@ -5,7 +5,7 @@
 - IKJ アカウントの Tiktok ライブデータの自動取得(tiktok-scraping フォルダ)と相関図の作成(tiktok-analyze フォルダ)
 - Tiktok 分析サイト exolyt から　ハッシュタグごとの流行度データ取得(tiktok-exolyt-sc フォルダ)
 
-各機能の使い方は各フォルダ直下の _ReadMe.md_ ファイルを拝見
+各機能の使い方は各フォルダ直下の _info.md_ ファイルを拝見
 
 ### はじめ方(環境構築)
 
