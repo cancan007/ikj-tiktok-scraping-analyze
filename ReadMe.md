@@ -25,7 +25,7 @@
 
 - Tiktok ライブデータの自動取得
 - フォルダ：tiktok-scraping
-- Tiktok ライブデータの相関図作成
+- Tiktok ライブデータの相関図作成(事前に tiktok-analyze でデータ取得する必要あり)
 - フォルダ：tiktok-analyze
-- 調査したいハッシュタグごとの流行度データ取得(事前に tiktok-analyze でデータ取得する必要あり)
+- 調査したいハッシュタグごとの流行度データ取得
 - フォルダ：tiktok-exolyt-sc
